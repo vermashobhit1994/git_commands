@@ -1,0 +1,13 @@
+This file has command which can be able to delete the remote repository branch whatever you want to delete
+
+Use below command:
+git push -d remotereponame remotebranchname
+
+e.g your remote branch name -> main
+    your remote repository name (as checked by git remote -v command ) -> arduinorepo
+    git push -d arduinorepo main
+
+    This will delete the remote repository branch with name main.
+
+    Note: If remote branch name is default branch then it can't be able to delete it. 
+          For this first you need to change the default remote repository branch to some other (let's say master) and then you can delete it.
